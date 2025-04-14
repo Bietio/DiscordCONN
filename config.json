@@ -1,0 +1,10 @@
+{
+    "token": "Your token",
+    "headers": [
+        "Authorization: Bot {TOKEN}",
+        "Content-Type: application/json"
+    ],
+    "data": {
+        "content": "Your message"
+    }
+}
