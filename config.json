@@ -1,5 +1,6 @@
 {
     "token": "Your token",
+    "channelID": "Channel id of server",
     "headers": [
         "Authorization: Bot {TOKEN}",
         "Content-Type: application/json"
