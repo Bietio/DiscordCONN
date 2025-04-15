@@ -4,10 +4,10 @@ include 'css.php';
 
 echo "<h1>DiscordCONN_v1.0</h1>";
 
-//Iniciar
-$ch = curl_init('https://discord.com/api/v9/channels/1322434807464198205/messages');
-
 $config = json_decode(file_get_contents('config.json'));
+
+//Iniciar
+$ch = curl_init('https://discord.com/api/v9/channels/' . $config->channelID . '/messages');
 
 
 //Configução;
