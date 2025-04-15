@@ -5,6 +5,7 @@ Com esse código você pode manipular a API do [Discord](https://discord.com/dev
 
 
 ### **Arquivo de configução** ⚙️
+
 ----
 ```php
   '/config.json'
@@ -14,7 +15,7 @@ Com esse código você pode manipular a API do [Discord](https://discord.com/dev
 | Parâmetros   | Tipo       | Descrição                           |
 | :---------- | :--------- | :---------------------------------- |
 | `token` | `string` | *Token do bot. |
-| `channelId` | `int\|string` | *. O id do seu canal de texto. |
+| `channelId` | `int/string` | *. O id do seu canal de texto. |
 | `content` | `string` | *Mensagem que o bot enviará. |
 
 
